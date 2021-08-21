@@ -1,0 +1,182 @@
+[2021-08-13 01:08:06] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 01:08:06] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 01:37:17] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 2161140 [running]:
+runtime/debug.Stack(0x400084db58, 0x8e3d20, 0x400054a0d8)
+	runtime/debug/stack.go:24 +0x88
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x40002c4000, 0x40000140f0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:204 +0x50
+panic(0x8e3d20, 0x400054a0d8)
+	runtime/panic.go:965 +0x154
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x40002c4000, 0x400033a0a0, 0x4000ab0000, 0x1e7, 0x1e7, 0x1, 0x40007039e0, 0x0, 0x4000548458)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/multimsg.go:122 +0x81c
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x40002c4000, 0x40000140f0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:211 +0x148
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:201 +0x324
+ 
+[2021-08-13 01:37:46] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2021-08-13 01:54:02] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 01:54:02] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 02:37:50] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 02:37:50] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 02:43:52] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 02:43:52] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 02:46:28] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 2225788 [running]:
+runtime/debug.Stack(0x4000513b58, 0x8e3d20, 0x400054a078)
+	runtime/debug/stack.go:24 +0x88
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x40002c4000, 0x40007b5d60)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:204 +0x50
+panic(0x8e3d20, 0x400054a078)
+	runtime/panic.go:965 +0x154
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x40002c4000, 0x40002ded20, 0x400079d800, 0x1e7, 0x1e7, 0x1, 0x400097ecc0, 0x0, 0x4000834158)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/multimsg.go:122 +0x81c
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x40002c4000, 0x40007b5d60)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:211 +0x148
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:201 +0x324
+ 
+[2021-08-13 02:46:57] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2021-08-13 02:57:45] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 02:57:45] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 03:10:43] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 03:10:43] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 03:14:19] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 03:14:19] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 03:35:51] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 03:35:51] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:06:43] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:06:43] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:12:54] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 2306781 [running]:
+runtime/debug.Stack(0x400008fb58, 0x8e3d20, 0x4000036450)
+	runtime/debug/stack.go:24 +0x88
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x40002c4000, 0x40007b4fa0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:204 +0x50
+panic(0x8e3d20, 0x4000036450)
+	runtime/panic.go:965 +0x154
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x40002c4000, 0x40002e64a0, 0x4000ac8400, 0x1e7, 0x1e7, 0x1, 0x400096e180, 0x0, 0x4000a36058)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/multimsg.go:122 +0x81c
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x40002c4000, 0x40007b4fa0)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:211 +0x148
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:201 +0x324
+ 
+[2021-08-13 04:13:23] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2021-08-13 04:21:12] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:21:12] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:21:12] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:21:12] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:33:27] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:33:27] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:34:33] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:34:33] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:35:21] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:35:21] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:40:00] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:40:00] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:49:36] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:49:36] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 04:52:29] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 04:52:29] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:05:39] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:05:39] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:21:11] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:21:11] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:26:07] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:26:07] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:26:13] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:26:13] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:28:15] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:28:15] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:28:34] [ERROR]: Protocol -> panic on decoder MultiMsg.ApplyDown : runtime error: index out of range [0] with length 0
+goroutine 2377267 [running]:
+runtime/debug.Stack(0x4000513b58, 0x8e3d20, 0x400054adc8)
+	runtime/debug/stack.go:24 +0x88
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1.1(0x40002c4000, 0x400092a690)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:204 +0x50
+panic(0x8e3d20, 0x400054adc8)
+	runtime/panic.go:965 +0x154
+github.com/Mrs4s/MiraiGo/client.decodeMultiApplyDownResponse(0x40002c4000, 0x40002dede0, 0x40002b6400, 0x1e7, 0x1e7, 0x1, 0x40004433e0, 0x0, 0x40008bca58)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/multimsg.go:122 +0x81c
+github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop.func1(0x40002c4000, 0x400092a690)
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:211 +0x148
+created by github.com/Mrs4s/MiraiGo/client.(*QQClient).netLoop
+	github.com/Mrs4s/MiraiGo@v0.0.0-20210726103104-1d68826cef0e/client/network.go:201 +0x324
+ 
+[2021-08-13 05:29:03] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2021-08-13 05:30:44] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:30:44] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:31:13] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:31:13] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:31:14] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:31:14] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:31:20] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:31:20] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 05:43:12] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 05:43:12] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:01:04] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:01:04] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:02:43] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:02:43] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:09:14] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:09:14] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:12:36] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:12:36] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:35:17] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:35:17] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:40:35] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:40:35] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:42:39] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:42:39] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:45:45] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:45:45] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:48:40] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:48:40] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:52:20] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:52:20] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:56:54] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:56:54] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 06:59:05] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 06:59:05] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 07:02:21] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 07:02:21] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 07:30:08] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 07:30:08] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 07:46:03] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 07:46:03] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 08:00:26] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 08:00:26] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 08:13:17] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 08:13:17] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 08:20:18] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 08:20:18] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 08:20:20] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 08:20:20] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 12:10:52] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 12:10:52] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 12:25:36] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 12:25:36] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 15:16:02] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 15:16:02] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 16:26:13] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 16:26:13] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 18:12:43] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 18:12:43] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 18:26:02] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 18:26:02] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 18:34:47] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 18:34:47] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 18:43:18] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 18:43:18] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 18:55:37] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 18:55:37] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 20:36:59] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 20:36:59] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 20:43:53] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 20:43:53] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 20:50:32] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 20:50:32] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-13 22:56:03] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-13 22:56:03] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  

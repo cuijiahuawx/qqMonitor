@@ -1,0 +1,13 @@
+[2021-08-17 01:05:19] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.102:53054->157.255.13.53:8080: read: connection timed out 
+[2021-08-17 11:57:47] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-17 11:57:47] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-17 16:56:49] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-17 16:56:49] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-17 17:48:39] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2021-08-17 18:04:34] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.102:55804->153.3.50.145:8080: read: connection timed out 
+[2021-08-17 18:06:33] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-17 18:06:33] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-17 18:36:26] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-17 18:36:26] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-17 19:53:43] [WARNING]: 获取群历史消息失败: Packet timed out 
+[2021-08-17 20:09:40] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.102:47246->163.177.30.151:8080: read: connection timed out 

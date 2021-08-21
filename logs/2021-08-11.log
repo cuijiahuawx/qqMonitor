@@ -1,0 +1,8 @@
+[2021-08-11 20:01:00] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-11 20:01:00] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-11 20:26:46] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-11 20:26:46] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-11 20:41:12] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-11 20:41:12] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
+[2021-08-11 21:21:13] [ERROR]: Protocol -> get msg error: 108  
+[2021-08-11 21:21:13] [WARNING]: 获取群历史消息失败: get msg error: 108 msg:  
